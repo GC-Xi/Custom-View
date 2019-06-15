@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    tools:parentTag="android.widget.LinearLayout"
+    tools:orientation="horizontal"
+    >
+
+    <EditText
+        android:id="@+id/firstnameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:id="@+id/lastnameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:hint="Last Name"
+        />
+</merge>
