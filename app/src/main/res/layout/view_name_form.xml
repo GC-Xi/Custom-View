@@ -3,16 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
-    tools:parentTag="android.widget.LinearLayout"
     tools:orientation="horizontal"
+    tools:parentTag="android.widget.LinearLayout"
     >
 
     <EditText
         android:id="@+id/firstnameText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_margin="8dp"
+        android:layout_weight="1"
         android:hint="First Name"
         />
 
@@ -20,8 +20,8 @@
         android:id="@+id/lastnameText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_margin="8dp"
+        android:layout_weight="1"
         android:hint="Last Name"
         />
 </merge>
